@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: AnonymousPro-Bold;
+    src: url(../lib/fonts/AnonymousPro-Bold.ttf);
+}
+
+body {
+    font-family: AnonymousPro-Bold;
+}

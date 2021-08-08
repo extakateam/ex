@@ -1,0 +1,184 @@
+
+/*
+    Style
+*/
+
+/* Variantes Globales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Toda Etiqueta <body> */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Toda Etiqueta <p> */
+
+p {
+    text-align: justify;
+}
+
+/* Toda Etiqueta <main> */
+
+main {
+    padding-top: 0;
+    padding-bottom: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Linea - 52: <header class="header"> */
+
+.header { 
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Linea - 19: <nav class="nav"> */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 5px 0px white;
+}
+
+/* 
+    Linea(s) - 26, 31, 36, 41, 46:
+    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">#</a> 
+*/
+
+.nav-link {
+    text-decoration: none;
+}
+
+/* Linea - 20: <a href="#" class="logo">#</a> */
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 30px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #ff5858;
+    transition: 0.5s;
+}
+
+/* Linea - 24: <ul class="nav-menu"> */
+
+.nav-menu {
+    display: flex;
+    margin-right: 25px;
+    list-style: none;
+}
+
+/* Linea(s) - 24, 30, 35, 40, 45: <li class="nav-menu-item"> */
+
+.nav-menu-item {
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 50px;
+    width: max-content;
+}
+
+/* 
+    Linea(s) - 26, 31, 36, 41, 46:
+    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">#</a> 
+*/
+
+.nav-menu-link{
+    color: white;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+    background-color: #ff5858;
+    transition: 0.5s;
+}
+
+/* Linea - 21: <button class="nav-toggle" aria-label="#"> */
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+@media (max-width:768px) {
+
+    main {
+        padding-top: 0;
+        padding-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo {
+        padding: 0 20px;
+        line-height: 60px;
+    }
+
+    .header { 
+        height: 60px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0;
+        background-color: black;
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        padding: 0 5px 0 0;
+        height: auto;
+        overflow-y: auto;
+        left: 105%;
+        transition: left 0.5s;
+        box-shadow: inset 0px 0px red, 
+                    inset -0px -1px white, 
+                    inset 0px 0px yellow;
+    }
+
+    .nav-menu-item {
+        line-height: 60px;
+    }
+
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: #ff5858;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+        box-shadow: inset 0px 0px red, 
+                    inset -0px -1px white, 
+                    inset 0px 0px yellow;
+
+    }
+
+}

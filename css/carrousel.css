@@ -1,0 +1,53 @@
+
+/*
+    Carrousel
+*/
+
+/* Linea - 56: <div class="carrousel"> */
+
+.carrousel {
+    min-height: 95vh;
+    margin-top: 50px;
+    padding: 0;
+}
+
+/* Linea - 58: <img src="../logo_G.GIF" alt="logo_gif" id="logo-g"> */
+
+#logo-g {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Linea - 59: <img src="../slogan_G.GIF" alt="slogan_gif" id="slogan-g"> */
+
+#slogan-g {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+/* Configuración para SmartPhone */
+
+@media (max-width:768px) {
+
+    .carrousel {
+        min-height: 95vh;
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    #logo-g {
+        width: 100%;
+    }
+
+    #slogan-g {
+        width: 60%;
+        
+    }
+
+}
