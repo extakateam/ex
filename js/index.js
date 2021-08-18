@@ -15,4 +15,3 @@ navToggle.addEventListener("click", () => {
     }
 
 });
-

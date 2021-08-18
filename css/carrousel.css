@@ -3,6 +3,13 @@
     Carrousel
 */
 
+/* <section id="nosotros"> */
+
+#carrousel {
+    background-color: black;
+    min-height: 100vh;
+}
+
 /* <div class="logo-gif"> */
 
 .logo-gif {
@@ -10,7 +17,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 95vh;
     margin-top: 50px;
     padding: 0;
 }
@@ -28,6 +34,23 @@
     margin-bottom: 50px;
 }
 
+/*<a class="boton-go" href="#nosotros">Go!</a>*/
+
+.boton-go {
+    font-size: 25px;
+	padding: 15px;
+	text-decoration: none;
+	color: #ff5858;
+	border: 2px solid;
+	border-radius: 30px;
+	transition: all 400ms ease;
+}
+
+.boton-go:hover {
+	background: #ff5858;
+	color: black;
+}
+
 /* Configuración para SmartPhone */
 
 @media (max-width:768px) {
@@ -36,6 +59,12 @@
         display: flex;
         margin-top: 0;
         min-height: 100vh;
+    }
+
+    .boton-go {
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 50px;
     }
     
     #logo-g {

@@ -11,11 +11,26 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Toda Etiqueta <body> */
 
 body {
-    background-color: black;
-    color: white;
+    color: black;
+}
+
+/* Barra de Scroll */
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ff5858;
+    border-radius: 2px;
 }
 
 /* Toda Etiqueta <p> */
@@ -24,9 +39,9 @@ p {
     text-align: justify;
 }
 
-/* Toda Etiqueta <main> */
+/* Temporal */
 
-main {
+#lorem {
     padding-top: 0;
     padding-bottom: 65px;
     padding-left: 30px;
@@ -36,12 +51,13 @@ main {
 /* <header class="header"> */
 
 .header { 
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.900);
     height: 50px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    box-shadow: 0px 1px 5px 0px white;
 }
 
 /* <nav class="nav"> */
@@ -49,8 +65,20 @@ main {
 .nav {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 1px 5px 0px white;
+    
 }
+
+/* Toda Etiqueta <section> */
+
+section {
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
 
 /* 
     <a href="#" class="nav-menu-link nav-link nav-menu-link_active">#</a> 
@@ -143,7 +171,7 @@ main {
         flex-direction: column;
         align-items: flex-end;
         margin: 0;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.900);
         position: fixed;
         top: 60px;
         width: 100%;

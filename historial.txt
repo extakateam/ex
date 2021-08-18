@@ -1,0 +1,86 @@
+
+/* Proyecto: Pagina Web - Extaka */
+
+> https://extakateam.ga/
+
+# Version 1.0 - 09/08/2021 (@Wira)
+- Primera Version Publica.
+
+# Version 1.1 - 10/08/2021 (@Wira)
+- Se adapto la Presentacion a multiples Resoluciones.
+- Se agrego los Favicons en "media/img/favicons"
+- Se creo la carpeta icon en "media/img" 
+- Se optimizaron los GIF al convertirlos en Webp ("media/img/gif/logo" y "media/img/gif/slogan").
+- Se simplifico los Comentarios.
+- Se modifico y actualizo el Carrousel (css/carrousel.css):
+    > Se reemplazo la clase .carrousel por .logo-gif
+    > Se agrego nuevas variantes en la clase .logo-gif:
+        * display: flex;
+        * justify-content: center;
+        * align-items: center;
+        * flex-direction: column;
+
+        -> En @media se modifico:
+        * min-height: 95vh; a min-height: 100vh;
+        * margin-top: 60px; a margin-top: 0;  
+
+            -> Se agrego:
+            * display: flex;
+
+            -> Se elimino:
+            * padding: 0;
+
+    > Se elimino variantes en el id #logo-g:
+        * margin-left: auto;
+        * margin-right: auto;
+        * display: block;
+
+        -> Se modifico:
+        * width: 40%; a width: 35%;
+
+    > Se elimino variantes en el id #slogan-g:
+        * margin-left: auto;
+        * margin-right: auto;
+        * margin-top: auto;
+        * display: block;
+
+        -> Se modifico:
+        * margin-bottom: auto; a margin-bottom: 50px;
+
+        -> En @media se agrego:
+            * margin-bottom: 50px;
+
+# Version 1.2 - 17/08/2021 (@Wira)
+
+- Se mejoro y optimizo el Inicio.
+- Se creo el archivo cards.css en "css"
+- Se agrego la Sesion Nosotros.
+- Se agrego redirecciones ID's en la Barra de Navegacion.
+- Se agrego Transparencia en la Barra de Navegacion.
+- Se modifico y actualizo en Style (css/style.css):
+    > Se reemplazo la clase main por el ID #lorem.
+    > Se agrego nuevas Etiquetas:
+        * html
+        * body::-webkit-scrollbar 
+        * body::-webkit-scrollbar-thumb
+        * section
+        
+    > Se elimino variantes en la etiqueta body:
+        * background-color: black;
+        
+    > Se agrego nuevas variantes en la clase .header:
+        * box-shadow: 0px 1px 5px 0px white;
+        
+        -> Se modifico:
+        background-color: black; a background-color: rgba(0, 0, 0, 0.900);
+        
+    > Se elimino variantes en la clase .nav:
+        * box-shadow: 0px 1px 5px 0px white;
+    
+    > La clase .nav-menu en @media se modifico:
+        * background-color: black; a background-color: rgba(0, 0, 0, 0.900);
+        
+- Cambio completo en el Carrousel (css/carrousel.css).
+
+
+
