@@ -82,5 +82,15 @@
         
 - Cambio completo en el Carrousel (css/carrousel.css).
 
+# Version 1.3 - 19/08/2021 (@Wira)
+
+- Se creo un Footer (css/footer.css).
+- Se creo un Boton (css/boton.css).
+- Se agrego Comentarios en Cards (css/cards.css).
+- Se rediseño los @media de Cards (css/cards.css).
+- Se creo la clase .sub-title-cards en Cards (css/cards.css).
+- Pequeñas optimizaciones.
+
+
 
 

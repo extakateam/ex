@@ -3,10 +3,14 @@
     Cards
 */
 
+/* <section id="nosotros"> */
+
 #nosotros {
 	min-height: 100vh;
 	flex-direction: column;
 }
+
+/* <div class="container-card"> */
 
 .container-card {
 	width: 100%;
@@ -14,11 +18,28 @@
 	max-width: 1100px;
 }
 
+/* <div class="tilulos"> */
+
 .tilulos {
 	margin: auto;
 }
 
+/* <div class="title-cards"> */
+
 .title-cards {
+	width: 100%;
+	max-width: 1080px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	color: black;
+	transition: all 400ms ease-out;
+}
+
+/* <div class="sub-title-cards"> */
+
+.sub-title-cards {
 	width: 100%;
 	max-width: 1080px;
 	padding: 20px;
@@ -29,13 +50,18 @@
 	transition: all 400ms ease-out;
 }
 
+/* <div class="text-cards"> */
+
 .text-cards {
 	padding-left: 200px;
 	padding-right: 200px;
+	margin-bottom: 10px;
 	text-align: center;
 	color: #6a6a6a;
 	transition: all 400ms ease-out;
 }
+
+/* <div class="card"> */
 
 .card {
 	width: 100%;
@@ -81,7 +107,7 @@
 	text-decoration: none;
 	color: #ff5858;
 	border: 1px solid #ff5858;
-	border-radius: 4px;
+	border-radius: 10px;
 	transition: all 400ms ease;
 	margin-bottom: 5px;
 }
@@ -111,4 +137,41 @@
 	.card {
 		margin: 15px;
 	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1250px) {
+
+	.title-cards {
+		margin: auto;
+		margin-top: 40px;
+	}
+
+	.text-cards {
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.container-card {
+		width: 90%;
+		height: 500px;
+	}
+
+	.card {
+		margin: 15px;
+	}
+
+	.card .contenido-card p {
+		line-height: 2;
+		color: #6a6a6a;
+		font-size: 10px;
+		margin-bottom: 5px;
+	}
+
+	.card .contenido-card a {
+		padding: 10px;
+		margin-top: 10px;
+	}
+	
 }
