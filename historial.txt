@@ -91,6 +91,22 @@
 - Se creo la clase .sub-title-cards en Cards (css/cards.css).
 - Pequeñas optimizaciones.
 
+# Version 1.4 - 27/08/2021 (@Wira)
 
+- Se creo un sript (js/carrousel.js).
+- Se creo un archivo para la NavBar (css/navbar.css)
+- Se Reestrocturo los CSS.
+- Se Rediseño Logo.
+- Se Rediseño los Favicons.
+- Se agrego mas fraces para el Carrousel (css/carrousel.css).
+- Se modifico y actualizo en Carrousel (css/carrousel.css):
+    > Se agrego el ID #slogan-ul.
+    > El ID #logo-g en @media se modifico:
+        * width: 100%; a width: 60%;
+
+    > El ID #slogan-g en @media se modifico:
+        * width: 60%; a width: 75%;
+
+- Se corrigio angunos errores en el texto.
 
 

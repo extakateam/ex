@@ -18,56 +18,12 @@
 	max-width: 1100px;
 }
 
-/* <div class="tilulos"> */
-
-.tilulos {
-	margin: auto;
-}
-
-/* <div class="title-cards"> */
-
-.title-cards {
-	width: 100%;
-	max-width: 1080px;
-	padding: 20px;
-	margin: auto;
-	margin-top: 10px;
-	text-align: center;
-	color: black;
-	transition: all 400ms ease-out;
-}
-
-/* <div class="sub-title-cards"> */
-
-.sub-title-cards {
-	width: 100%;
-	max-width: 1080px;
-	padding: 20px;
-	margin: auto;
-	margin-top: -10px;
-	text-align: center;
-	color: black;
-	transition: all 400ms ease-out;
-}
-
-/* <div class="text-cards"> */
-
-.text-cards {
-	padding-left: 200px;
-	padding-right: 200px;
-	margin-bottom: 10px;
-	text-align: center;
-	color: #6a6a6a;
-	transition: all 400ms ease-out;
-}
-
 /* <div class="card"> */
 
 .card {
 	width: 100%;
 	margin: 20px;
 	border-radius: 10px;
-	overflow: hidden;
 	background:#fff;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	transition: all 400ms ease-out;
@@ -97,6 +53,7 @@
 	line-height: 1.8;
 	color: #6a6a6a;
 	font-size: 14px;
+	text-transform: none;
 	margin-bottom: 5px;
 }
 
@@ -119,21 +76,10 @@
 
 @media only screen and (min-width:320px) and (max-width:768px) {
 
-	.title-cards {
-		margin: auto;
-		margin-top: 60px;
-	}
-
-	.text-cards {
-		padding-left: 15px;
-		padding-right: 15px;
-		margin-bottom: 25px;
-		text-align: center;
-	}
-
 	.container-card {
 		flex-wrap: wrap;
 	}
+	
 	.card {
 		margin: 15px;
 	}
@@ -141,21 +87,8 @@
 
 @media only screen and (min-width:768px) and (max-width:1250px) {
 
-	.title-cards {
-		margin: auto;
-		margin-top: 40px;
-	}
-
-	.text-cards {
-		padding-left: 50px;
-		padding-right: 50px;
-		margin-bottom: 25px;
-		text-align: center;
-	}
-
 	.container-card {
 		width: 90%;
-		height: 500px;
 	}
 
 	.card {
@@ -174,4 +107,12 @@
 		margin-top: 10px;
 	}
 	
+}
+
+@media only screen and (min-width:1250px) and (max-width:1680px) {
+
+	.card .contenido-card p {
+		font-size: 10px;
+	}
+
 }

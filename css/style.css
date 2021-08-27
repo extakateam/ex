@@ -42,22 +42,11 @@ p {
 /* Temporal */
 
 #lorem {
+	text-transform: none;
     padding-top: 0;
     padding-bottom: 65px;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-/* <header class="header"> */
-
-.header { 
-    background-color: rgba(0, 0, 0, 0.900);
-    height: 50px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-shadow: 0px 1px 5px 0px white;
 }
 
 /* <nav class="nav"> */
@@ -80,76 +69,51 @@ section {
     text-transform: uppercase;
   }
 
-/* 
-    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">#</a> 
-*/
+/* <div class="tilulos"> */
 
-.nav-link {
-    text-decoration: none;
+.tilulos {
+	margin: auto;
 }
 
-/* <a href="#" class="logo">#</a> */
+/* <div class="title-cards"> */
 
-.logo {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 0 30px;
-    line-height: 50px;
-    text-decoration: none;
+.title-cards {
+	width: 100%;
+	max-width: 1080px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	color: black;
+	transition: all 400ms ease-out;
 }
 
-.logo:hover {
-    color: #ff5858;
-    transition: 0.5s;
+/* <div class="sub-title-cards"> */
+
+.sub-title-cards {
+	width: 100%;
+	max-width: 1080px;
+	padding: 20px;
+	margin: auto;
+	margin-top: -10px;
+	text-align: center;
+	color: black;
+	transition: all 400ms ease-out;
 }
 
-/* Linea - 24: <ul class="nav-menu"> */
+/* <div class="text-cards"> */
 
-.nav-menu {
-    display: flex;
-    margin-right: 25px;
-    list-style: none;
+.text-cards {
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-bottom: 10px;
+	text-transform: none;
+	text-align: center;
+	color: #6a6a6a;
+	transition: all 400ms ease-out;
 }
 
-/* <li class="nav-menu-item"> */
-
-.nav-menu-item {
-    font-size: 15px;
-    margin: 0 10px;
-    line-height: 50px;
-    width: max-content;
-}
-
-/* 
-    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">#</a> 
-*/
-
-.nav-menu-link{
-    color: white;
-    padding: 5px 5px;
-    border-radius: 3px;
-}
-
-.nav-menu-link:hover,
-.nav-menu-link_active {
-    background-color: #ff5858;
-    transition: 0.5s;
-}
-
-/* <button class="nav-toggle" aria-label="#"> */
-
-.nav-toggle {
-    color: white;
-    background: none;
-    border: none;
-    font-size: 25px;
-    padding: 0 20px;
-    line-height: 60px;
-    display: none;
-}
-
-@media (max-width:768px) {
+@media only screen and (min-width:320px) and (max-width:768px) {
 
     main {
         padding-top: 0;
@@ -158,53 +122,40 @@ section {
         padding-right: 20px;
     }
 
-    .logo {
-        padding: 0 20px;
-        line-height: 60px;
-    }
+	.title-cards {
+		margin: auto;
+		margin-top: 60px;
+	}
 
-    .header { 
-        height: 60px;
-    }
+	.text-cards {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
 
-    .nav-menu {
-        flex-direction: column;
-        align-items: flex-end;
-        margin: 0;
-        background-color: rgba(0, 0, 0, 0.900);
-        position: fixed;
-        top: 60px;
-        width: 100%;
-        padding: 0 5px 0 0;
-        height: auto;
-        overflow-y: auto;
-        left: 105%;
-        transition: left 0.5s;
-        box-shadow: inset 0px 0px red, 
-                    inset -0px -1px white, 
-                    inset 0px 0px yellow;
-    }
+}
 
-    .nav-menu-item {
-        line-height: 60px;
-    }
+@media only screen and (min-width:768px) and (max-width:1250px) {
 
-    .nav-menu-link:hover,
-    .nav-menu-link_active {
-        background: none;
-        color: #ff5858;
-    }
+	.title-cards {
+		margin: auto;
+		margin-top: 40px;
+	}
+
+	.text-cards {
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
     
-    .nav-toggle {
-        display: block;
-    }
+}
 
-    .nav-menu_visible {
-        left: 0;
-        box-shadow: inset 0px 0px red, 
-                    inset -0px -1px white, 
-                    inset 0px 0px yellow;
+@media only screen and (min-width:1250px) and (max-width:1680px) {
 
-    }
-
+	.title-cards {
+		margin-top: 40px;
+	}
+    
 }
