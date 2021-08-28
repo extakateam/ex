@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+main {
+    margin-top: -70px;
+}
+
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}

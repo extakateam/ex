@@ -1,0 +1,48 @@
+
+#carrousel {
+    padding-top: 20px;
+    min-height: 100vh;
+}
+
+.fondo-carrousel {
+    min-height: 100vh;
+    background-image: url(../media/img/fondo/fondo0_J.jpg);
+}
+
+.carrousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+.title-home {
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.sub-title-home {
+    font-size: 25px;
+    color: white;
+}
+
+.boton-go {
+    margin-top: 20px;
+    font-size: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid;
+	border-radius: 25px;
+	transition: all 400ms ease;
+}
+
+.boton-go:hover {
+	background: white;
+    color: black;
+    border: 1px solid;
+}
+
