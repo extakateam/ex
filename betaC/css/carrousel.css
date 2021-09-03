@@ -15,34 +15,40 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: hsla(0, 0%, 0%, 0.750);
 }
 
-.title-home {
-    padding-top: 20px;
-    font-size: 40px;
+.carrousel-title {
     color: white;
+    font-family: Omniface;
+    position: relative;
+    top: 15px;
 }
 
-.sub-title-home {
+.carrousel-sub-title {
     font-size: 25px;
     color: white;
+    font-family: JosefinSans-Bold;
 }
 
 .boton-go {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
 	padding: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 	text-decoration: none;
 	color: white;
 	border: 1px solid;
 	border-radius: 25px;
-	transition: all 400ms ease;
+	transition: all 500ms ease;
+    font-family: NaturaPlay-Bold;
 }
 
 .boton-go:hover {
 	background: white;
     color: black;
-    border: 1px solid;
+    border: 1px solid white;
 }
 
