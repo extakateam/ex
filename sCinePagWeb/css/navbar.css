@@ -77,7 +77,7 @@ header {
 }
 
 .name_page i {
-    width: 10px;
+    width: 15px;
     margin-right: 25px;
     transition: color 300ms;
     cursor: pointer;
@@ -93,7 +93,7 @@ header {
     padding: 20px 30px;
     position: absolute;
     top: 50px;
-    font-family: JosefinSans-Regular;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .options_menu a{
@@ -111,20 +111,22 @@ header {
 .options_menu .option{
     padding: 20px 0px;
     display: flex;
+    align-items: center;
     position: relative;
 }
 
 .options_menu .option i{
-    width: 10px;
-    margin-right: 25px;
+    width: 20px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
 .options_menu .option h4{
     font-weight: 100;
+    font-size: 15px;
     cursor: pointer;
     position: relative;
-    top: 2px;
+
 }
 
 a.selected {

@@ -33,17 +33,9 @@
 
 .boton-go {
     margin-top: 10px;
-    font-size: 20px;
-	padding: 10px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-	text-decoration: none;
 	color: white;
 	border: 1px solid;
 	border-radius: 25px;
-	transition: all 500ms ease;
-    font-family: NaturaPlay-Bold;
 }
 
 .boton-go:hover {

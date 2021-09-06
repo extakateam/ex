@@ -62,16 +62,8 @@
 
 .specialty-boton {
     margin-top: 10px;
-    font-size: 20px;
-	padding: 10px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-	text-decoration: none;
 	color: black;
 	border-radius: 15px;
-	transition: all 400ms ease;
-    font-family: NaturaPlay-Bold;
 }
 
 .specialty-boton:hover {
