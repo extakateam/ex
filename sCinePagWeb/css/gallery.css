@@ -84,7 +84,7 @@ input[type="radio"] {
 }
 
 .post .ctn-img:hover {
-    background-color: white;
+    background: linear-gradient(to bottom, hsl(0, 0%, 11%), white);
     transition: all 750ms ease;
 }
 
@@ -97,17 +97,26 @@ input[type="radio"] {
     transition: all 500ms ease-out;
 }
 
+.post .ctn-img video {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+	border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms ease-out;
+}
+
 .post .ctn-img .capa {
     color: white;
     position: absolute;
     display: flex;
+    flex-direction: column;
     top: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.61);
     border-radius: 10px;
     transition: all 500ms ease-out;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -122,6 +131,7 @@ input[type="radio"] {
 }
 
 .post .ctn-img .capa h3 {
+    flex-direction: column;
     margin-top: 100px;
 }
 
@@ -136,13 +146,15 @@ input[type="radio"] {
 }
 
 .post .ctn-img .capa a {
-	display: inline-block;
 	height: 40px;
 	width: 40px;
 	line-height: 40px;
 	border-radius: 50%;
 	color: #ffffff;
 	transition: all 0.5s ease;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .post .ctn-img .capa a:hover {
@@ -181,7 +193,7 @@ input[type="radio"] {
     }
 
     .post .ctn-img:hover {
-        background-color: hsl(0, 0%, 11%);
+        background: hsl(0, 0%, 11%);
         transition: all 750ms ease;
     }
 
