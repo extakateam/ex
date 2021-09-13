@@ -8,10 +8,12 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/carrousel.css">
-        <link rel="stylesheet" href="css/cards.css">
-        <link rel="stylesheet" type="text/css" href="css/font.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css">
         <link rel="apple-touch-icon" sizes="57x57" href="media/img/favicons/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="media/img/favicons/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="media/img/favicons/apple-icon-72x72.png">
@@ -32,39 +34,40 @@
         <script src="https://kit.fontawesome.com/d97d108d55.js" crossorigin="anonymous"></script>
         <script defer src="js/index.js"></script>
         <script src="js/carrousel.js"></script>
+        <script src="js/active.js"></script>
         <title>Inicio</title>
     </head>
     <body>
         <!-- Barra de Navegación - Inicio -->
         <header class="header">
             <nav class="nav">
-                <a href="#carrousel" class="logo">Extaka</a>
+                <a href="#" class="logo">Extaka</a>
                 <button class="nav-toggle" aria-label="Abrir Menu">
                     <i class="fas fa-bars"></i>
                 </button>
-                <ul class="nav-menu">
-                    <li class="nav-menu-item ">
-                        <a href="#" class="nav-menu-link nav-link">
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="#" class="nav-menu-link active">
                             Inicio
                         </a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#nosotros" class="nav-menu-link nav-link">
+                        <a href="#nosotros" class="nav-menu-link">
                             Nosotros
                         </a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#trabajos" class="nav-menu-link nav-link">
+                        <a href="#gallery" class="nav-menu-link">
                             Trabajos
                         </a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#skills" class="nav-menu-link nav-link">
+                        <a href="#skills" class="nav-menu-link">
                             Skills
                         </a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#" class="nav-menu-link nav-link">
+                        <a href="#contact" class="nav-menu-link">
                             Contacto
                         </a>
                     </li>
@@ -79,7 +82,7 @@
                     <img src="media/img/gif/logo/newlogo_W.webp" alt="logo_gif" id="logo-g">
                     <ul id="slogan-ul">
                         <li id="slogan-li">
-                            <img src="" alt="slogan_gif" id="slogan-g">
+                            <img src="media/img/gif/slogan/slogan0_W.webp" alt="slogan_gif" id="slogan-g">
                         </li>
                     </ul>
                     <a class="boton-go" href="#nosotros">Go!</a>
@@ -103,16 +106,16 @@
                 </div>
             </div>
             <!-- Boton - Fin-->
-            
             <!-- Nosotros: Section 2 -->
             <section id="nosotros">
                 <div class="tilulos">
-                    <div class="title-cards">
+                    <div class="title">
                         <h1>Sobre Nosotros</h1>
                     </div>
+                    <div class="line"></div>
                     <div class="text-cards">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio id ducimus distinctio eligendi, nisi veniam alias nesciunt accusantium ea tenetur suscipit atque qui sed rem delectus exercitationem ut excepturi assumenda quo accusamus, magni dolore. Fuga inventore odit facilis ipsum quo tempora vel dicta repellendus voluptatem omnis perspiciatis pariatur mollitia sunt, exercitationem possimus vero nobis quibusdam repudiandae ab eligendi expedita incidunt iste. Cumque dignissimos assumenda itaque error, impedit, dolor dolorem at nostrum odit nam sunt. Quidem inventore sed necessitatibus laudantium mollitia consectetur nam illum quam dolore error, repellat, quod doloremque obcaecati dolor beatae culpa fugiat blanditiis reiciendis aliquam numquam quas.
+                            Somos un pequeño grupo desarrollador que se dedica al diseño y edicion de paginas Web, remasterizacion y restauracion de fotos e imagenes. Este Equipo fue creado por Yade E. Bravo (Wira), como nombre de Grupo en la UCH en el año 2020. Actualmente solo el creador es el unico mienbro original del Team.
                         </p>
                     </div>
                 </div>    
@@ -122,11 +125,10 @@
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058">
                         </figure>
                         <div class="contenido-card">
-                            <h3>Ejemplo</h3>
+                            <h3>Remasterizacion</h3>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, id doloribus! Quibusdam repellendus, repellat praesentium id maiores quia deleniti, libero laborum necessitatibus dolorum inventore aliquid, soluta voluptatibus vel. Cupiditate, sunt.
+                                Usamos IA y filtros para la resmasterizacion y rescalado de Fotos e Imagenes.
                             </p>
-                            <a href="#">Boton</a>
                         </div>
                     </div>
                     <div class="card">
@@ -134,11 +136,10 @@
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058">
                         </figure>
                         <div class="contenido-card">
-                            <h3>Ejemplo</h3>
+                            <h3>Paginas Web</h3>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, id doloribus! Quibusdam repellendus, repellat praesentium id maiores quia deleniti, libero laborum necessitatibus dolorum inventore aliquid, soluta voluptatibus vel. Cupiditate, sunt.
+                                Creamos Paginas Web Minimalistas, de diseño moderno y atractivo, usando diversas tecnologias.
                             </p>
-                            <a href="#">Boton</a>
                         </div>
                     </div>
                     <div class="card">
@@ -146,34 +147,116 @@
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058">
                         </figure>
                         <div class="contenido-card">
-                            <h3>Ejemplo</h3>
+                            <h3>Restaruracion</h3>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, id doloribus! Quibusdam repellendus, repellat praesentium id maiores quia deleniti, libero laborum necessitatibus dolorum inventore aliquid, soluta voluptatibus vel. Cupiditate, sunt.
+                                Usamas la Tecnologia de Adobe junto a la IA para la restauracion de fotos e imagenes.
                             </p>
-                            <a href="#">Boton</a>
                         </div>
                     </div>
                 </div>
-                <div class="tilulos">
-                    <div class="sub-title-cards">
-                        <h2>Sobre Nosotros</h2>
-                    </div>
-                    <div class="text-cards">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio id ducimus distinctio eligendi, nisi veniam alias nesciunt accusantium ea tenetur suscipit atque qui sed rem delectus exercitationem ut excepturi assumenda quo accusamus, magni dolore. Fuga inventore odit facilis ipsum quo tempora vel dicta repellendus voluptatem omnis perspiciatis pariatur mollitia sunt, exercitationem possimus vero nobis quibusdam repudiandae ab eligendi expedita incidunt iste. Cumque dignissimos assumenda itaque error, impedit, dolor dolorem at nostrum odit nam sunt. Quidem inventore sed necessitatibus laudantium mollitia consectetur nam illum quam dolore error, repellat, quod doloremque obcaecati dolor beatae culpa fugiat blanditiis reiciendis aliquam numquam quas.
-                        </p>
-                    </div>
-                </div>    
             </section>
             <!-- Nosotros: Section 2 - Fin -->
-            <section id="lorem">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus illo alias quis minus itaque quisquam assumenda labore in, quod deserunt ipsum, excepturi totam doloribus, enim ea praesentium dolorum quia minima?
-                    Voluptate tempora nemo incidunt accusantium facilis officia corporis reiciendis quia dicta, in commodi fugit eos aut vero? Odit magnam a quidem, quibusdam tempore placeat, cumque nesciunt sint itaque sunt ipsa!
-                    Ad doloremque sequi architecto quo ipsum veritatis soluta quasi laudantium quos impedit, magni, corporis voluptatum fugiat vel at repellat! Et sit commodi distinctio eaque corrupti id similique nam beatae voluptate!
-                    Necessitatibus, sint qui quibusdam unde pariatur ab beatae aut reprehenderit dicta nemo vero eius tempore commodi rem at ut provident inventore quidem, fugiat mollitia similique incidunt quas? Cumque, culpa modi?
-                    Accusamus perferendis totam, sunt illum labore laudantium rerum earum nemo necessitatibus nihil, dolorum exercitationem facere libero, magni ad illo officiis quo tempora hic quas doloremque? Qui magnam veritatis dicta sit.
-                </p>
+            <section id="gallery">
+                <div class="fondo-gallery">
+                    <div class="gallery-container">
+                        <h2 class="title gallery-title">Portafolio</h2>
+                        <div class="line"></div>
+                        <div class="container-post">
+                            <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+                            <input type="radio" id="PAGWEB" name="categories" value="PAGWEB">
+                            <input type="radio" id="RESIMAGE" name="categories" value="RESIMAGE">
+                            <input type="radio" id="REMIMAGE" name="categories" value="REMIMAGE">
+                            <div class="container-category">
+                                <label for="TODOS">TODOS</label>
+                                <label for="PAGWEB">PAGINAS WEB</label>
+                                <label for="RESIMAGE">RESTAURACION</label>
+                                <label for="REMIMAGE">REMASTERIZACION</label>
+                            </div>
+                            <div class="posts">
+                                <div class="post" data-category="PAGWEB">
+                                    <figure class="ctn-img">
+                                        <img src="media/img/gif/logo/newlogo_G.GIF" alt="">
+                                        <div class="capa">
+                                            <h3>Siembra</h3>
+                                            <div class="line"></div>
+                                            <div class="acr">
+                                                <a href="#" class="fas fa-link"></a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <div class="post" data-category="PAGWEB">
+                                    <figure class="ctn-img">
+                                        <img src="media/img/gif/logo/newlogo_G.GIF" alt="">
+                                        <div class="capa">
+                                            <h3>M3CH</h3>
+                                            <div class="line"></div>
+                                            <div class="acr">
+                                                <a href="#" class="fas fa-link"></a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <div class="post" data-category="RESIMAGE">
+                                    <figure class="ctn-img">
+                                        <img src="media/img/gif/logo/newlogo_G.GIF" alt="">
+                                        <div class="capa">
+                                            <h3>RESIMAGE</h3>
+                                            <div class="line"></div>
+                                            <div class="acr">
+                                                <a href="#" class="fas fa-link"></a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <div class="post" data-category="REMIMAGE">
+                                    <figure class="ctn-img">
+                                        <img src="media/img/gif/logo/newlogo_G.GIF" alt="">
+                                        <div class="capa">
+                                            <h3>REMIMAGE</h3>
+                                            <div class="line"></div>
+                                            <div class="acr">
+                                                <a href="#" class="fas fa-link"></a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="fondo-contact">
+                    <div class="contact-container">
+                        <h2 class="title">Contactenos</h2>
+                        <div class="line"></div>
+                        <p class="p-contact">
+                            No dude en Contactarnos por estos medios.
+                        </p>
+                        <div class="a-container">
+                            <div class="ac-container">
+                                <a href="mailto:extakateam@gmail.com" class="fas fa-envelope"></a>
+                                <p class="p-ac-contact">
+                                    info@example.com
+                                </p>
+                            </div>
+                            <div class="ac-container">
+                                <a href="#" target="_blank" class="fab fa-telegram"></a>
+                                <p class="p-ac-contact">
+                                    +51 983569825
+                                </p>
+                            </div>
+                            <div class="ac-container">
+                                <a href="https://www.google.com.pe/maps?hl=es-419&authuser=0" target="_blank" class="fas fa-map-marker-alt"></a>
+                                <p class="p-ac-contact">
+                                    Jr. De Mentira De la Calle de mi Casa
+                                </p>
+                            </div>
+                        </div>
+                        <a class="button contact-boton" href="#">Mas Info</a>
+                    </div>
+                </div>
             </section>
         </main>
         <!-- Main - Fin-->
@@ -187,20 +270,23 @@
                             <li><a href="#nosotros"><gt>&gt;</gt> Nosotros</a></li>
                             <li><a href="#trabajos"><gt>&gt;</gt> Trabajos</a></li>
                             <li><a href="#"><gt>&gt;</gt> Skills</a></li>
-                            <li><a href="#"><gt>&gt;</gt> Contacto</a></li>
+                            <li><a href="#contact"><gt>&gt;</gt> Contacto</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
                         <h4>Soporte</h4>
-                        <ul>
-                            <li><a href="#"><gt>&gt;</gt> FAQ</a></li>
-                            <li><a href="#"><gt>&gt;</gt> Feedback</a></li>
-                        </ul>
+                        <form action="https://formsubmit.co/extakateam@gmail.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input class="name" type="text" name="name" placeholder="Nombre(s)" required><br>
+                            <input class="email" type="email" name="email" placeholder="Email" required><br>
+                            <input type="hidden" name="_next" value="https://extakateam.ga">
+                            <button class="send" type="submit">Enviar</button>
+                       </form>
                     </div>
                     <div class="footer-col">
                         <h4>Otros</h4>
                         <ul>
-                            <li><a href="https://sbcine.github.io/sCine/"><gt>&gt;</gt> Productora</a></li>
+                            <li><a href="#"><gt>&gt;</gt> Siembra</a></li>
                             <li><a href="#"><gt>&gt;</gt> Pronto</a></li>
                             <li><a href="#"><gt>&gt;</gt> Pronto</a></li>
                             <li><a href="#"><gt>&gt;</gt> Pronto</a></li>
@@ -217,6 +303,9 @@
                     </div>
                 </div>
             </div>
+            <div class="copyright-container">
+                <span class="copyright">&copy;2021 - Extaka Team</span>
        </footer>
+       <script src="js/active.js"></script>
     </body>
 </html>

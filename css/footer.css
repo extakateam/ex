@@ -76,7 +76,7 @@ gt {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: black;
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
@@ -88,6 +88,48 @@ gt {
 .footer-col .social-links a:hover {
 	color: #24262b;
 	background-color: #ffffff;
+}
+
+.name, .email{
+	padding: 5px;
+	width: 90%;
+	color: white;
+	background-color: black;
+	border: 1px solid;
+	border-color: #ff5858;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	outline: none;
+	font-family: AnonymousPro-Bold;
+}
+
+.send {
+	padding: 5px;
+    margin-bottom: 10px;
+	color: white;
+	background-color: black;
+	border: 1px solid;
+	border-color: #ff5858;
+	border-radius: 5px;
+	transition: all 500ms ease;
+    font-family: AnonymousPro-Bold;
+}
+
+.send:hover {
+	background-color: #ff5858;
+    color: hsl(0, 0%, 11%);
+}
+
+.copyright-container {
+	display: flex;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	justify-content: center;
+	position: relative;
+	bottom: -70px;
+	font-size: 15px;
+	font-family: AnonymousPro-Bold;
 }
 
 @media(max-width: 574px){
@@ -110,7 +152,7 @@ gt {
 
 	.footer-col{
 		padding: 0 50px;
-	 }
+	}
 	
 }
 

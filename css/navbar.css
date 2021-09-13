@@ -3,16 +3,6 @@
     NavBar
 */
 
-/* 
-    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">#</a> 
-*/
-
-.nav-link {
-    text-decoration: none;
-}
-
-/* <a href="#" class="logo">#</a> */
-
 .logo {
     color: white;
     font-size: 25px;
@@ -27,8 +17,6 @@
     transition: 0.5s;
 }
 
-/* <header class="header"> */
-
 .header { 
     background-color: rgba(0, 0, 0, 0.900);
     height: 50px;
@@ -37,17 +25,14 @@
     top: 0;
     left: 0;
     box-shadow: 0px 1px 5px 0px white;
+    z-index: 1;
 }
-
-/* <ul class="nav-menu"> */
 
 .nav-menu {
     display: flex;
     margin-right: 25px;
     list-style: none;
 }
-
-/* <li class="nav-menu-item"> */
 
 .nav-menu-item {
     font-size: 15px;
@@ -56,9 +41,9 @@
     width: max-content;
 }
 
-/* 
-    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">#</a> 
-*/
+.nav-menu-item a{
+    text-decoration: none;
+}
 
 .nav-menu-link{
     color: white;
@@ -66,13 +51,14 @@
     border-radius: 3px;
 }
 
-.nav-menu-link:hover,
-.nav-menu-link_active {
+.nav-menu-link:hover{
     background-color: #ff5858;
     transition: 0.5s;
 }
 
-/* <button class="nav-toggle" aria-label="#"> */
+.active{
+    background-color: #ff5858;
+}
 
 .nav-toggle {
     color: white;
@@ -117,10 +103,14 @@
         line-height: 60px;
     }
 
-    .nav-menu-link:hover,
-    .nav-menu-link_active {
+    .nav-menu-link:hover{
         background: none;
         color: #ff5858;
+    }
+
+
+    .active {
+        background: none;
     }
     
     .nav-toggle {
